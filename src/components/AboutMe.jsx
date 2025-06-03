@@ -2,9 +2,9 @@ import { Briefcase, Code, User } from "lucide-react";
 
 export const AboutSection = () => {
  return (
-    <section id="#about" className="py-24 px-4 relative">
-        {""}
-        <div className="container mx-auto max-w-5xl">
+    <section id="about" className="py-24 px-4 relative">
+        {" "}
+        <div className="container mx-auto max-w-7xl">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
                     About
                 <span className="text-primary"> Me</span>
@@ -40,13 +40,28 @@ export const AboutSection = () => {
                             <div className="p-3 rounded-full bg-primary/20 ">
                                 <Code className="h-6 w-6 text-primary" />
                             </div>
-
+                            <div className="text-left">
+                                <h4 className="text-lg font-semibold">
+                                    Full Stack Developer
+                                </h4>
+                                <p classNmae="text-muted-foreground/80">
+                                    Passionate about building scalable web applications and creating seamless user experiences.
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/20 ">
                                 <User className="h-6 w-6 text-primary"/>
+                            </div>
+                            <div className="text-left">
+                                <h4 className="text-lg font-semibold">
+                                    Tech Enthusiast
+                                </h4>
+                                <p classNmae="text-muted-foreground/80">
+                                    Always eager to learn new technologies and apply them to solve real-world problems.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -55,6 +70,14 @@ export const AboutSection = () => {
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/20 ">
                                 <Briefcase className="h-6 w-6 text-primary"/>
+                            </div>
+                            <div className="text-left">
+                                <h4 className="text-lg font-semibold">
+                                    Team Player & Coordinator
+                                </h4>
+                                <p classNmae="text-muted-foreground/80">
+                                    Experienced in coordinating projects and facilitating communication between teams and stakeholders.
+                                </p>
                             </div>
                         </div>
                     </div>
