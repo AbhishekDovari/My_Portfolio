@@ -209,9 +209,9 @@ export const Skills = () => {
                                     <h4 className="font-semibold mb-1">
                                         {skill.name}
                                     </h4>
-                                    <p className="text-sm text-slate-600">
+                                    {/* <p className="text-sm text-slate-600">
                                         {skill.category}
-                                    </p>
+                                    </p> */}
                                 </div>
                             </div>
                         </div>

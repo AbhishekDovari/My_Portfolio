@@ -5,6 +5,8 @@ import { HeroSection } from "../components/HeroSection";
 import { AboutSection } from "../components/AboutMe";
 import { Skills } from "../components/Skills";
 import { Projects } from "../components/Projetcs";
+import { Contact } from "lucide-react";
+import { ContactSection } from "../components/ContactSection";
 // import { StarsMeteors } from "../components/StarsMeteors";
 
 export const Home = () => {
@@ -26,6 +28,7 @@ export const Home = () => {
             <AboutSection/>
             <Skills/>
             <Projects/>
+            <ContactSection/>
             {/* Add other sections like Skills, Projects, Contact here */}
         </main>
 
