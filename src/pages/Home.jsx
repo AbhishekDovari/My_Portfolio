@@ -1,22 +1,18 @@
 import { Navbar } from "../components/Navbar";
 import { StarsMeteors } from "../components/StarsMeteors";
-import { ThemeToggle } from "../components/ThemeToggle";
 import { HeroSection } from "../components/HeroSection";
 import { AboutSection } from "../components/AboutMe";
+import { Experience } from "../components/Experience";
 import { Skills } from "../components/Skills";
 import { Projects } from "../components/Projetcs";
-import { Contact } from "lucide-react";
 import { ContactSection } from "../components/ContactSection";
-// import { StarsMeteors } from "../components/StarsMeteors";
 
 export const Home = () => {
     return (
 
         <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-        {/* Theme toggle */}
-        <ThemeToggle/>
          
-        {/* Backgrounf Effect */}
+        {/* Background Effect */}
         <StarsMeteors/>
 
         {/*Navbar */}
@@ -26,10 +22,10 @@ export const Home = () => {
         <main>
             <HeroSection/>
             <AboutSection/>
+            <Experience/>
             <Skills/>
             <Projects/>
             <ContactSection/>
-            {/* Add other sections like Skills, Projects, Contact here */}
         </main>
 
         {/* Footer */}

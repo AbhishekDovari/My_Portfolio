@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, Phone, Send, Code } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { use, useState } from "react";
 import { useToast } from "../hooks/use-toast";
@@ -91,21 +91,24 @@ export const ContactSection = () => {
                                 Connect With Me
                             </h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="https://www.linkedin.com/in/abhishek-dovari-038021261/" target="_blank">
+                                <a href="https://www.linkedin.com/in/abhishek-dovari-038021261/" target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
                                     <Linkedin />
                                 </a>
-                                <a  href="#" target="_blank">
-                                    <Instagram />
+                                <a href="https://github.com/AbhishekDovari" target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                    <Github />
+                                </a>
+                                <a href="https://leetcode.com/u/abhidovari/" target="_blank" className="text-foreground/80 hover:text-primary transition-colors duration-300">
+                                    <Code />
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div className="bg-card p-8 rounded-lg shadow-xs" onSubmit={handleSubmit}>
-                        <h3 className="text-2xl font0semibold mb-6">
+                    <div className="bg-card p-8 rounded-lg shadow-xs">
+                        <h3 className="text-2xl font-semibold mb-6">
                             Drop Me a Message
                         </h3>
-                        <form className="space-y-6">
+                        <form className="space-y-6" onSubmit={handleSubmit}>
                             <div>
                                 <label 
                                     htmlFor="name"

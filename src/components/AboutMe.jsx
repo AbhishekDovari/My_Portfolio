@@ -15,12 +15,12 @@ export const AboutSection = () => {
                         Passionate Developer & Tech creator
                     </h3>
 
-                    <p>
-                        I'm a Computer Science undergraduate at NIT Durgapur with a strong interest in full-stack development and creating practical, user-focused applications. As a Senior Developer at the GNU/Linux Users' Group, I've worked on several collaborative projects that sharpened both my technical and problem-solving skills.
+                    <p className="text-muted-foreground/80">
+                        I'm a Computer Science undergraduate at NIT Durgapur, currently interning as a Software Development Engineer at Texas Instruments, Bangalore. I build full-stack web applications using Next.js, Node.js, and PostgreSQL — from automating enterprise workflows to streamlining audit processes.
                     </p>
 
-                    <p>
-                        Beyond academics, I serve as a Training and Placement Coordinator, where I bridge communication between students and companies. I enjoy learning new technologies, taking on real-world challenges, and continuously improving as a developer.
+                    <p className="text-muted-foreground/80">
+                        I also serve as a Senior Developer at the GNU/Linux Users' Group and a Training & Placement Coordinator at NIT Durgapur. I'm passionate about solving real-world problems through clean, scalable code.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button">
@@ -44,8 +44,8 @@ export const AboutSection = () => {
                                 <h4 className="text-lg font-semibold">
                                     Full Stack Developer
                                 </h4>
-                                <p classNmae="text-muted-foreground/80">
-                                    Passionate about building scalable web applications and creating seamless user experiences.
+                                <p className="text-muted-foreground/80">
+                                    Building scalable web apps with Next.js, React, Node.js, Django, and PostgreSQL.
                                 </p>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ export const AboutSection = () => {
                                 <h4 className="text-lg font-semibold">
                                     Tech Enthusiast
                                 </h4>
-                                <p classNmae="text-muted-foreground/80">
+                                <p className="text-muted-foreground/80">
                                     Always eager to learn new technologies and apply them to solve real-world problems.
                                 </p>
                             </div>
@@ -75,8 +75,8 @@ export const AboutSection = () => {
                                 <h4 className="text-lg font-semibold">
                                     Team Player & Coordinator
                                 </h4>
-                                <p classNmae="text-muted-foreground/80">
-                                    Experienced in coordinating projects and facilitating communication between teams and stakeholders.
+                                <p className="text-muted-foreground/80">
+                                    Cross-functional liaison between business and engineering teams at Reliance and Texas Instruments.
                                 </p>
                             </div>
                         </div>
