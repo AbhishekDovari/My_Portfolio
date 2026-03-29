@@ -1,17 +1,71 @@
-<<<<<<< HEAD
-# My_Portfolio
-My personal portfolio website built with React.js, HTML, CSS, and JavaScript.
-=======
-# React + Vite
+# Abhishek Dovari — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website built with **React**, **Tailwind CSS v4**, and **Vite** to showcase my experience, projects, and skills.
 
-Currently, two official plugins are available:
+## 🔗 Links
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **LinkedIn**: [Abhishek Dovari](https://www.linkedin.com/in/abhishek-dovari-038021261/)
+- **GitHub**: [AbhishekDovari](https://github.com/AbhishekDovari)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> c9eb10d (Initial commit)
+- Responsive single-page design with dark/light theme toggle
+- Animated star & meteor background effects
+- **Experience** timeline — Texas Instruments, Reliance Industries, RINL
+- **Skills** grid with category filters and progress bars
+- **Projects** showcase with live demo & GitHub links
+- Contact form with toast notifications
+
+## 🛠 Tech Stack
+
+| Layer     | Tech                                   |
+| --------- | -------------------------------------- |
+| Framework | React 19, Vite 6                       |
+| Styling   | Tailwind CSS v4 (`@tailwindcss/vite`)  |
+| Routing   | React Router DOM v7                    |
+| Icons     | Lucide React                           |
+| UI        | Radix UI (Toast), CVA, clsx            |
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/AbhishekDovari/My_Portfolio.git
+cd My_Portfolio
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── AboutMe.jsx
+│   ├── ContactSection.jsx
+│   ├── Experience.jsx
+│   ├── HeroSection.jsx
+│   ├── Navbar.jsx
+│   ├── Projetcs.jsx
+│   ├── Skills.jsx
+│   ├── StarsMeteors.jsx
+│   └── ui/              # Toast components
+├── pages/
+│   ├── Home.jsx
+│   └── NotFound.jsx
+├── hooks/
+├── lib/
+├── index.css             # Tailwind config, theme variables, animations
+├── App.jsx
+└── main.jsx
+```
+
+## 📄 License
+
+This project is open source and available for personal use.
